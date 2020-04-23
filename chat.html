@@ -7,8 +7,7 @@
     href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" 
     integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" 
     crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css" />
-    <title>Settings | Kakao Clone</title>
+    <title>Chat | Kakao Clone</title>
 </head>
 <body>
     <div class="status-bar"> <!-- 부모클래스 -->
@@ -28,42 +27,59 @@
     </div>
     <header class="header">
         <div class="header__header-column">
-                <a href="more.html" class="header__back-btn">
+                <a href="index.html" class="header__back-btn">
                     <i class="fas fa-arrow-left fa-2x"></i>
                 </a>
             </div>
-            <h1 class="header__title">설정 <!-- Settings --></h1>
+            <h1 class="header__title">Best Friend</h1>
         </div>
         <div class="header__header-column">
             <span class="header__icon">
                 <i class="fas fa-search"></i>
             </span>
+            <div class="header__icon">
+                <i class="fas fa-bars"></i>
+            </div>
         </div>
     </header>
-    <main class="settings">
-        <section class="settings__sections">
-            <ul class="settings_list">
-                <li class="settings_setting">
-                    <span class="settings_icon">
-                        <i class="fas fa-lock"></i>
-                    </span>
-                    <span class="settings_title">Privacy</span>
-                </li>
-                <li class="settings_setting">
-                    <span class="settings_icon">
-                        <i class="far fa-bell"></i>
-                    </span>
-                    <span class="settings_title">Notifications</span>
-                </li>
-                <li class="settings_setting">
-                    <span class="settings_icon">
-                        <i class="far fa-user"></i>
-                    </span>
-                    <span class="settings_title">Friends</span>
-                </li>
-            </ul>
-        </section>
+    <main class="chat">
+        <ul class="chat__message">
+            <span class="chat__timestemp">목요일, 4월 23일 주체109(2020년)</span>
+            <li class="incoming-message">
+                <img src="images/pighorse.jpg" class="g-avatar message__avatar"/>
+                <div class="message__content">
+                    <span class="message__author">Best Friend</span>
+                    <div class="message__bubble">
+                        축하하네 동무! 내래 동무를 좋아한다우!
+                    </div>
+                </div>
+                <span class="message__timestamp"></span>
+            </li>
+            <li class="incoming-message">
+                <span class="message__timestamp"></span>
+                <div class="message__content">
+                    <div class="message__bubble">
+                        감사합니다 수령님!
+                    </div>
+                </div>
+            </li>
+        </ul>
     </main>
+    <div class="chat__write">
+        <div class="chat__write-column">
+            <i class="far fa-plus-square"></i>
+        </div>
+        <div class="chat__write-column">
+            <input type="text" placeholder="Send message" class="chat__write-input">
+        </div>
+        <div class="chat__write-column">
+            <span class="chat__write-icon">
+                <i class="far fa-smile-wink"></i>
+                <i class="fas fa-microphone"></i>
+            </span>
+        </div>
+    </div>
+  
 </body>
 </html>
 
