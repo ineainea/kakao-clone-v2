@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" 
+    href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" 
+    integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" 
+    crossorigin="anonymous">
+    <title>Friends | Kakao Clone</title>
+</head>
+<body>
+    <div class="status-bar"> <!-- 부모클래스 -->
+        <div class="status-bar__column"> <!-- 자식클래스 -->
+            <span class="status-bar__clock">22:37</span>
+        </div> 
+        <div class="status-bar__column">
+            <i class="fas fa-clock"></i>
+            <i class="fas fa-volume-mute"></i>
+            <i class="fas fa-signal"></i>
+            <i class="fas fa-wifi"></i>
+            <i class="fas fa-head-side-mask"></i>
+            <span class="status-bar__battery-level">50%</span>
+            <i class="fas fa-battery-half"></i>
+        </div>
+    </div>
+    <header class="header">
+        <div class="header__header-column">
+            <img src="images/people.png">
+            <h1 class="header__title">동무들</h1>
+        </div>
+        <div class="header__header-column">
+            <span class="header__icon">
+                <i class="fas fa-search"></i>
+            </span>
+            <span class="header__icon">
+                <i class="fas fa-cog"></i>
+            </span>
+        </div>
+    </header>
+    <main class="friends">
+        <header class="friends__header">
+            <div class="friends__friend friend friend--lg">
+                <div class="friend__column">
+                    <img src="images/iniesta.jpg" alt="" class="g-avatar friend_avatar">
+                    <div class="friend__content">
+                        <span class="friend__name">
+                            Inhye Iniesta Jeong
+                        </span>
+                        <img src="images/koreaflag.png">
+                        <span class="friend__status">
+                            내래 2번 3번 바꿔줄까?
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="friends__plus">
+            <h5 class="friends__title">독특한 동무들</h5>
+            <div class="friends__friend friend">
+                <div class="friend__column">
+                    <img src="images/iniesta.jpg" alt="" class="g-avatar friend_avatar">
+                    <div class="friend__content">
+                        <span class="friend__name">
+                            독특한 동무
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="friends__list">
+            <h5 class="friends__title">동무들 14 명</h5>
+            <li class="friends__friend friend friend--lg">
+                <div class="friend__column">   
+                </div>
+                <img src="images/iniesta.jpg" alt="" class="g-avatar friend_avatar">
+                <div class="friend__content">
+                    <span class="friend__name">
+                        Inhye Iniesta Jeong
+                    </span>
+                    <span class="friend__status">
+                        GeaBakkChim
+                    </span>
+                </div>
+                <div class="friend__column">
+                    <div class="friend__now-listening">
+                        <span>
+                            FTISLAND (FT NomadCoders)
+                        </span>
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </main>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__list-item">
+                <a href="friends.html" class="nav_list-link">
+                    <i class="fas fa-user-friends"></i>
+                </a>
+            </li>
+            <li class="nav__list-item">
+                <a href="index.html" class="nav_list-link">
+                    <i class="fas fa-comments"></i>
+                </a>
+            </li>
+            <li class="nav__list-item">
+                <a href="find.html" class="nav_list-link">
+                    <i class="fas fa-search"></i>
+                </a>
+            </li>
+            <li class="nav__list-item">
+                <a href="more.html" class="nav_list-link">
+                    <i class="fas fa-ellipsis-h"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>
+
+<!-- 맨 위 상태아이콘을 놓기위한 구성
+부모 클래스 status-bar 아래 자식 클래스 status-bar__column를 선언
+아래 시간과 배터리 잔여랭, 아이콘들을 각각 선언함.
+아이콘은 Font Awesome에서 
+<link rel="stylesheet" 
+href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" 
+integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" 
+crossorigin="anonymous">
+를 붙여넣기 한 후 아이콘 class들을 선언.
+해당 아이콘들은 Font Awesome CDN를 불러오지 않으면 사용할 수 없음. -->
