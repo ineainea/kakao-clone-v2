@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .header__header-column { /* titleicon과 h1 텍스트를 가로 정렬하기 위한 클래스선언 */
+    display: flex;
+    align-items: center;
+}
+
+
+.header .header__title {  /* h1 텍스트 수정을 위한 클래스선언 */
+    font-size: 25px; /* 글씨체 크기 */
+    font-weight: 700; /* 글씨체 굵기 */
+}
+
+.header .header__icon {
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.header .header__back-btn {
+    font-size: 22px;
+    margin-right: 20px;
+}
