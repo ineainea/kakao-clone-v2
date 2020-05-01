@@ -12,6 +12,7 @@
 .header .header__title {  /* h1 텍스트 수정을 위한 클래스선언 */
     font-size: 25px; /* 글씨체 크기 */
     font-weight: 700; /* 글씨체 굵기 */
+    margin-left: 5px;
 }
 
 .header .header__icon {

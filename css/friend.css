@@ -26,4 +26,20 @@
 
 .friend__content .friend__name{
     display: block;
+    margin-bottom: 5px;
+}
+
+.friend__content .friend__status,
+.friend__content .friend__bottom-text,
+.friend .chat__timestamp{
+    opacity: 0.6;
+}
+
+.friend__content .friend__bottom-text {
+    font-size: 14px;
+}
+
+.friend .chat__timestamp,
+.friend__content .friend__status{
+    font-size: 12px;
 }
