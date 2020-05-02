@@ -1,0 +1,39 @@
+.find{
+    margin-top: 50px;
+}
+
+.find .find__header-list{ /* 아이콘들을 서로 떨어뜨리기 위한 코드 */
+    display: flex;
+    justify-content: space-around;
+}
+
+.find .header-btn{ /* 아이콘 아래 텍스트를 가운데 및 아래로 내리기 위한 코드 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.find .header-btn__title{
+    display: block;
+}
+
+.find .header-btn__title{
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.find .header-btn__icon{
+    font-size: 12px;
+}
+
+.find .find__recommended{
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #f7f7f7;
+}
+
+.find .find_title{
+    font-size: 12px;
+    opacity: 0.7;
+    margin-bottom: 20px;
+}
