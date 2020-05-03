@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Chat | Kakao Clone</title>
 </head>
-<body>
+<body class="chats-body">
     <div class="status-bar"> <!-- 부모클래스 -->
         <div class="status-bar__column"> <!-- 자식클래스 -->
             <span class="status-bar__clock">22:37</span>
@@ -31,7 +31,7 @@
              <a href="index.html" class="header__back-btn">
                 <i class="fas fa-arrow-left"></i>
             </a>
-            <h1 class="header__title">Best Friend</h1>
+            <h1 class="header__title">★정은이★ 말조심하기!!!</h1>
         </div>
         <div class="header__header-column">
             <span class="header__icon">
@@ -42,20 +42,19 @@
             </div>
         </div>
     </header>
-    <main class="chat">
+    <main class="chat-screen">
         <ul class="chat__message">
-            <span class="chat__timestemp">목요일, 4월 23일 주체109(2020년)</span>
-            <li class="incoming-message">
+            <span class="chat__timestamp">목요일, 4월 23일 주체109(2020년)</span>
+            <li class="incoming-message message">
                 <img src="images/pighorse.jpg" class="m-avatar message__avatar"/>
                 <div class="message__content">
-                    <span class="message__author">Best Friend</span>
+                    <span class="message__author">★정은이★ 말조심하기!!!</span>
                     <div class="message__bubble">
-                        축하하네 동무! 내래 동무를 좋아한다우!
+                        축하하네 동무! 내래 이래서 동무를 좋아한다우!
                     </div>
                 </div>
-                <span class="message__timestamp"></span>
             </li>
-            <li class="incoming-message">
+            <li class="sent-message message">
                 <span class="message__timestamp"></span>
                 <div class="message__content">
                     <div class="message__bubble">
